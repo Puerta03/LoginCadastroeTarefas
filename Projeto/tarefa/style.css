@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(circle, rgba(229,76,76,1) 31%, rgba(142,0,193,1) 78%);
+}
+
+.container {
+    width: 450px;
+    
+    background: #2d2c2c;
+    color: white;
+    border-radius: 20px;
+    padding: 60px 30px;
+}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.container .barra {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 50px 0;
+}
+
+.barra input {
+    width: 65%;
+    height: 70%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+    margin-right: 10px;
+
+}
+
+.container .adicionar {
+    width: 30%;
+    height: 40px;
+    background: radial-gradient(circle, rgba(142,0,193,1) 31%, rgba(229,76,76,1) 78%);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin-left: 7px;
+}
+
+li button{
+    width: 70%;
+    height: 40px;
+    background: radial-gradient(circle, rgba(142,0,193,1) 31%, rgba(229,76,76,1) 78%);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+#lista {
+    display: flex;
+    justify-content: center;
+}
+
+li span {
+    font-size: 20px;
+    text-align: center;
+}
