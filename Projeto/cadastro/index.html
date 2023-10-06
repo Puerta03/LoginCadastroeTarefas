@@ -5,36 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="cadastro">
+    <div class="login">
         <div class="form">
             <form class="login-form">
                 <h1>Cadastro</h1>
                 <div class="barra">
                     <input type="text" placeholder="Nome completo">
+                    <i class='bx bxs-user'></i>
                 </div>
                 <div class="barra">
-                    <input type="password" placeholder="Usuário">
+                    <input type="text" placeholder="Usuário">
+                    <i class='bx bxs-user'></i>
                 </div>
                 <div class="barra">
-                    <input type="text" placeholder="E-mail">
+                    <input type="email" placeholder="Email">
+                    <i class='bx bxs-envelope'></i>
                 </div>
                 <div class="barra">
-                    <input type="password" placeholder="Telefone">
+                    <input type="tel" placeholder="Telefone">
+                    <i class='bx bxs-mobile' ></i>
                 </div>
                 <div class="barra">
-                    <input type="text" placeholder="Senha">
+                    <input type="password" placeholder="Senha">
+                    <i class='bx bxs-lock-alt'></i>
                 </div>
                 <div class="barra">
                     <input type="password" placeholder="Confirmação da senha">
+                    <i class='bx bxs-lock-alt'></i>
                 </div>
                 
-                <button type="submit" class="cadastrar">Cadastrar</button>
-            </form>           
+                <button type="submit" class="entrar">Cadastrar</button>
+            </form>
+
+            <div class="link">
+                <p class="mensagem">Já tem cadastro? <a href="/login/index.html">Faça seu login!</a></p>
+            </div>
+           
         </div>
     </div>
-
     <script src="main.js"></script>
 </body>
 </html>
