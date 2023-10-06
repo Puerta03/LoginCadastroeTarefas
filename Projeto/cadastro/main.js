@@ -17,17 +17,6 @@ form.addEventListener('submit', (event) => {
     const usuario = usuarioInput.value.trim();
     const senha = senhaInput.value.trim();
 
-    //Verifica se os campos de usuario e senha estão preechidos
-    if(usuario === '' || senha === '') {
-    alert("Por favor, preencha os campos");
-    } else if (usuario === 'usuario' && senha === 'senha') {
-    //Verifica se as informações de login e senha estão corretas
-    alert("Bem vindo!")
     location.replace("/tarefa/index.html", "_self")
-    } else {
-    //Exibe uma mensagem de erro se as informações estiverem erradas
-    alert("Usuário ou senha incorreto, tente novamente")
-    }
-
-
+   
 })
